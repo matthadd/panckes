@@ -1,0 +1,30 @@
+[
+  {
+    "name": "BRINGUE",
+    "movePoints" : -5
+  },
+  {
+    "name": "SNK",
+    "movePoints" :  -5
+  },
+  {
+    "name": "FLOP",
+    "movePoints" :  -5
+  },
+  {
+    "name": "EXAM",
+    "movePoints" :  -5
+  },
+  {
+    "name": "VESQUI",
+    "movePoints" :  -5
+  },
+  {
+    "name": "RAMADAN",
+    "movePoints" :  -5
+  },
+  {
+    "name": "FLEX",
+    "movePoints" :  -5
+  }
+]
