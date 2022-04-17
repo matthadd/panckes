@@ -1,9 +1,6 @@
 package shared;
 
 import junit.framework.TestCase;
-import org.json.simple.parser.ParseException;
-
-import java.io.IOException;
 
 public class StateTest extends TestCase {
 

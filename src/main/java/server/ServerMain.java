@@ -11,13 +11,9 @@ public class ServerMain {
 
     public static void main(String[] args) throws IOException {
 
+        System.out.println("Server is running...");
+
         State state = new State();
-
-
-    }
-
-    public void createGame() {
-
     }
 
 
