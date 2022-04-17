@@ -1,30 +1,42 @@
 [
   {
     "name": "BRINGUE",
-    "movePoints" : -5
+    "description": "Thursday night or not it's time to buy some booze",
+    "movePoints": -5
   },
   {
     "name": "SNK",
-    "movePoints" :  -5
+    "description": "Catch your roomates to play",
+    "movePoints": -5
   },
   {
     "name": "FLOP",
-    "movePoints" :  -5
+    "description": "Someone is doing a mistake right now and you can't do anything about it",
+    "movePoints": -5
+  },
+  {
+    "name": "REVISION",
+    "description": "Exam soon...",
+    "movePoints": -5
   },
   {
     "name": "EXAM",
-    "movePoints" :  -5
+    "description": "Exam now",
+    "movePoints": -5
   },
   {
     "name": "VESQUI",
-    "movePoints" :  -5
+    "description": "You try to escape something",
+    "movePoints": -5
   },
   {
     "name": "RAMADAN",
-    "movePoints" :  -5
+    "description": "Time to be a vampire",
+    "movePoints": -5
   },
   {
     "name": "FLEX",
-    "movePoints" :  -5
+    "description": "It's flex time",
+    "movePoints": -5
   }
 ]

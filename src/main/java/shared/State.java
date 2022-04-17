@@ -1,9 +1,5 @@
 package shared;
 
-import org.json.simple.parser.ParseException;
-
-import java.io.IOException;
-
 public class State {
 
     public Board board;

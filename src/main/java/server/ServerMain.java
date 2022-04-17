@@ -1,9 +1,6 @@
 package server;
 
-import org.json.simple.parser.ParseException;
 import shared.State;
-
-import java.io.IOException;
 
 
 public class ServerMain {

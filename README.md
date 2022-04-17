@@ -1,1 +1,6 @@
-## panckes
+# panckes
+
+## Game Rules
+
+## Architecture
+
