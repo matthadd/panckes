@@ -1,10 +1,12 @@
 package shared;
 
+import java.io.IOException;
+
 public class State {
 
     public Board board;
 
-    public State() {
+    public State() throws IOException {
         Board board = new Board();
         board.init();
     }
