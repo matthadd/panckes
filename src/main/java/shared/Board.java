@@ -25,6 +25,8 @@ public class Board {
             // we choose the first possibility if random < weight (if weight is big, probability to choose it is big)
             if (new Random().nextInt(100) < allComponents[0].weight) this.boardComponents.add(allComponents[0]);
         }
+
+        System.out.println(this);
     }
 
     public int size() {
@@ -41,5 +43,16 @@ public class Board {
             allComponents[randomIndexToSwap] = allComponents[i];
             allComponents[i] = temp;
         }
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder res = new StringBuilder();
+        for (BoardComponent boardComponent : this.boardComponents) {
+            res.append(boardComponent.name).append(",");
+        }
+        return "Board{" +
+                "boardComponents.name=" + res +
+                '}';
     }
 }
