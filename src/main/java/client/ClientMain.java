@@ -6,7 +6,7 @@ public class ClientMain {
 
 
     public static void main(String[] args) {
-        System.out.println("[START] Server is starting ...");
+        System.out.println("[START] Client is starting ...");
 
 
         Player c = new Player("matthadd", 0);

@@ -28,6 +28,14 @@ public class StateTest extends TestCase {
 
     }
 
-    public void testDeletePlayers() {
+    public void testDeletePlayers() throws IOException{
+        State state = new State();
+        Player P1 = new Player("garacoul", 0);
+        Player P2 = new Player("matthadd", 2);
+        Player P3 = new Player("hugonoel", 3);
+
+        state.addPlayers(P1, P2, P3);
+        state.deletePlayers(P1);
+        assertEquals(2, state.players.size());
     }
 }
