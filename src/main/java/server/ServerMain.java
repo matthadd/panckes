@@ -19,7 +19,7 @@ public class ServerMain {
         Room room = new Room();
 
 
-        Player P1 = new Player("matthadd", 0);
+        Player P1 = new Player("garan", 0);
         Player P2 = new Player("matthadd", 2);
         Player P3 = new Player("matthadd", 3);
 
