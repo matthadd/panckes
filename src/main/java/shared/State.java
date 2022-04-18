@@ -6,16 +6,24 @@ import java.util.List;
 
 public class State {
     public Board board;
-    List<Player> players = new ArrayList<>();
+    public List<Player> players = new ArrayList<>();
 
 
     public State() throws IOException {
-        Board board = new Board();
+        this.board = new Board();
     }
 
-    public void addPlayers(Player...players){
-        for(Player p : players) {
+    public void addPlayers(Player... players) {
+        for (Player p : players) {
+            this.players.add(p);
             System.out.println(p);
+        }
+    }
+
+    public void deletePlayers(Player... players) {
+        for (Player p : players) {
+            this.players.remove(p);
+            System.out.println(p + " deleted");
         }
     }
 

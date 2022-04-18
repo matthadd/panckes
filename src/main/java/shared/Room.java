@@ -7,6 +7,6 @@ public class Room {
     public State roomState;
 
     public Room() throws IOException {
-        roomState = new State();
+        this.roomState = new State();
     }
 }
